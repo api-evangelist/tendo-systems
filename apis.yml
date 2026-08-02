@@ -1,9 +1,31 @@
 aid: tendo-systems
 name: Tendo Systems
-description: Tendo Systems is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Tendo (Tendo Systems) is a healthcare technology company founded in 2020 by
+  siblings Dan and Jen Goldsmith, building software, analytics, and healthcare
+  marketplaces on a next-generation platform that connects patients, clinicians,
+  and providers across the fragmented care experience. Its application suite
+  spans Tendo Insights (clinical quality and financial analytics), Tendo QDI
+  (clinical documentation integrity and workflow optimization), Tendo Outreach
+  (targeted patient engagement), and Care Connect, a shoppable bundled-procedure
+  marketplace built on its 2023 acquisition of MDsave. Tendo does not currently
+  publish a public developer API, OpenAPI specification, or open developer
+  portal; its documentation and support portals are gated behind authentication.
+  This API Evangelist profile captures the company's public identity and
+  security posture.
 url: https://raw.githubusercontent.com/api-evangelist/tendo-systems/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tendo.com/wp-content/uploads/2023/02/tendo-logo-1200-675.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Health IT
+- Clinical Analytics
+- Patient Engagement
+- Healthcare Marketplace
+- Care Coordination
+- Digital Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tendo-systems-domain-security.yml
+- type: Website
+  url: https://www.tendo.com
+- type: Support
+  url: https://support.tendo.com/
+- type: Blog
+  url: https://www.tendo.com/tendo-resources/
+- type: TermsOfService
+  url: https://www.tendo.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.tendo.com/terms-of-use/#privacy-policy
+- type: TrustCenter
+  url: https://trust.tendo.com
+- type: Compliance
+  url: https://trust.tendo.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

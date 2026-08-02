@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.tendo.com
+probe: false
+url: https://trust.tendo.com
+platform: SafeBase
+certifications:
+- HIPAA
+- SOC 2 Type 2
+notes: >-
+  Tendo publishes a SafeBase-powered Trust Center at trust.tendo.com listing
+  HIPAA and SOC 2 Type 2. Additional security documentation (risk profile,
+  product security, data security, incident response) is described on the page
+  but gated as "available upon request." No security contact or vulnerability
+  disclosure policy is published on the Trust Center page.
+evidence:
+- source: https://trust.tendo.com
+  keywords:
+  - trust center
+  - hipaa
+  - soc 2 type 2
+  - safebase
